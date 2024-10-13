@@ -2,7 +2,6 @@
 This file will not be updated if you clone the repository but you can still view it here.
 
 Upcomming:
-	- Complex API
 	- Python Compiler OneFile (pyinstaller --onefile, just looks better)
 
 Legendary Projects:
@@ -10,3 +9,6 @@ Legendary Projects:
 	- Script optimizer (It shortens scripts, makes them cross-os, obfuscates them) (Will take a lot of time)
 	- AgentGPT (Will take a lot of time)
 	- Package Manager (Cross-OS)
+
+Finished:
+	- Complex API
