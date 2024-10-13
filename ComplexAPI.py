@@ -8,7 +8,7 @@ ENCODING = 'utf-8'
 
 class Cryptography:
     def encode(message):
-				binary_message = ''.join(format(ord(char), '08b') for char in message)
+		binary_message = ''.join(format(ord(char), '08b') for char in message)
         hex_message = hex(int(binary_message, 2))[2:]
         base64_message = base64.b64encode(bytes.fromhex(hex_message)).decode(ENCODING)
         binary_base64 = ''.join(format(ord(char), '08b') for char in base64_message)
